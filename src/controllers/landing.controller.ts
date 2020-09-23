@@ -13,9 +13,13 @@ class LandingController {
     async createLanding(req: Request, res: Response): Promise<void> {
        
         const landing: ILanding = new Landing(req.body);
-       console.log(req.body)
-        console.log(landing)
-        res.json(landing);
+
+        console.log(landing);
+
+        res.json({
+            ok: true,
+            landing
+        });
     }
     
     routes() {

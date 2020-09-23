@@ -1,10 +1,12 @@
-## levantar app
 
-## Instalar librerias
+## install dependencies 
 npm install 
 
-## convierte el TS a JS
+## run ts
 npm run ts
 
-## levanta ambiente  
+## run environment
 nm run dev
+
+## port
+your app should be listening on port 3000
